@@ -1,16 +1,132 @@
-## Hi there 👋
+```md
+<!-- SPIDER-MAN PROFILE README -->
 
-<!--
-**TheBiellBr/TheBiellBr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:C1121F,100:001F54&height=180&section=header&text=Gabriel%20Gonçalves&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35" width="100%"/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=C1121F&center=true&vCenter=true&width=700&lines=🕷️+Com+grandes+responsabilidades...;...vêm+grandes+linhas+de+código.;💻+Desenvolvedor+em+formação;🎓+ADS+%7C+FICR;🚀+Sempre+aprendendo+algo+novo" alt="Typing SVG" />
+
+  <p>
+    <img src="https://img.shields.io/badge/🎓%20ADS-FICR-001F54?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/💻%20Developer-in%20training-C1121F?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🕷️%20Spider--Verse-mode-111111?style=for-the-badge" />
+  </p>
+
+</div>
+
+---
+
+## 🕷️ Sobre mim
+
+Olá! Eu sou **Gabriel Santos Gonçalves**, estudante de **Análise e Desenvolvimento de Sistemas (ADS)** na **FICR**.
+
+Estou construindo minha carreira na área de tecnologia e gosto de aprender colocando a mão no código. Atualmente venho desenvolvendo projetos acadêmicos e pessoais, buscando evoluir principalmente em **programação, lógica, banco de dados e desenvolvimento web**.
+
+> 🕸️ *"Com grandes responsabilidades vêm grandes oportunidades de aprender."*
+
+### 🎯 Meu objetivo
+
+Me tornar um **programador**, evoluir constantemente e construir uma carreira sólida na área de tecnologia.
+
+---
+
+## 🧰 Tecnologias
+
+<div align="center">
+
+### Linguagens e desenvolvimento
+
+<img src="https://skillicons.dev/icons?i=python,c,java,javascript,html,css,mysql,git,github,vscode" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C-Intermediate-A8B9CC?style=for-the-badge&logo=c&logoColor=111111" />
+<img src="https://img.shields.io/badge/Java-Studies-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-Studies-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" />
+<img src="https://img.shields.io/badge/HTML5-Studies-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-Studies-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-Studies-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+
+</div>
+
+---
+
+## 🚀 O que venho estudando
+
+- 🧠 Programação e lógica
+- 🏗️ Programação Orientada a Objetos
+- 🗄️ Banco de dados e SQL
+- 🌐 Desenvolvimento web
+- 🔧 Git e GitHub
+- 📚 Estruturas e organização de projetos
+
+---
+
+## 📂 Projetos
+
+### 🏪 Sistema Mercadinho
+
+Sistema de gestão desenvolvido em **C**, com módulos para clientes, produtos, estoque e pedidos/PDV.
+
+🔗 [Ver projeto](https://github.com/TheBiellBr/Projeto-Mercadinho)
+
+### 📚 FICR — Projetos e Atividades
+
+Repositório onde organizo atividades, exercícios e projetos desenvolvidos durante o curso de ADS.
+
+🔗 [Ver repositório](https://github.com/TheBiellBr/FICR-projetos-e-atividades)
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=TheBiellBr&show_icons=true&hide_border=true&count_private=true&theme=radical" height="180em" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheBiellBr&layout=compact&hide_border=true&theme=radical" height="180em" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=TheBiellBr&theme=radical&hide_border=true" width="70%" />
+
+</div>
+
+---
+
+## 🕸️ Em construção
+
+Assim como o Homem-Aranha está sempre aprendendo a dominar seus poderes, eu também estou construindo minhas habilidades pouco a pouco.
+
+**Cada projeto é uma nova fase. Cada erro é uma nova experiência. E cada linha de código é mais um passo.**
+
+<div align="center">
+
+### 🕷️ Let's code. Let's build. Let's evolve. 🕷️
+
+<a href="https://www.linkedin.com/in/gabriel-santos-a22723302">
+  <img src="https://img.shields.io/badge/LinkedIn-Gabriel%20Gonçalves-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:gabriel1968wbr@gmail.com">
+  <img src="https://img.shields.io/badge/Email-gabriel1968wbr%40gmail.com-C1121F?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://github.com/TheBiellBr">
+  <img src="https://img.shields.io/badge/GitHub-TheBiellBr-111111?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:C1121F,100:8B0000&height=120&section=footer" width="100%"/>
+
+</div>
+```

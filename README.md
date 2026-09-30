@@ -100,16 +100,8 @@ Repositório onde organizo atividades, exercícios e projetos desenvolvidos dura
 
 ---
 
-## 🕸️ Em construção
-
-Assim como o Homem-Aranha está sempre aprendendo a dominar seus poderes, eu também estou construindo minhas habilidades pouco a pouco.
-
-**Cada projeto é uma nova fase. Cada erro é uma nova experiência. E cada linha de código é mais um passo.**
-
 <div align="center">
-
-### 🕷️ Let's code. Let's build. Let's evolve. 🕷️
-
+Contatos
 <a href="https://www.linkedin.com/in/gabriel-santos-a22723302">
   <img src="https://img.shields.io/badge/LinkedIn-Gabriel%20Gonçalves-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>

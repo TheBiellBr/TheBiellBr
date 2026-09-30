@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Teia de aranha animada com uma pequena aranha descendo">
+  <defs>
+    <linearGradient id="webFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .web {
+        fill: none;
+        stroke: url(#webFade);
+        stroke-width: 1.6;
+        stroke-linecap: round;
+        filter: url(#glow);
+      }
+
+      .web-thin {
+        fill: none;
+        stroke: #ffffff;
+        stroke-opacity: 0.34;
+        stroke-width: 1.1;
+        stroke-linecap: round;
+      }
+
+      .spider-line {
+        stroke: #ffffff;
+        stroke-opacity: 0.65;
+        stroke-width: 1.4;
+        stroke-linecap: round;
+      }
+
+      .spider-body {
+        fill: #111111;
+        stroke: #ffffff;
+        stroke-opacity: 0.8;
+        stroke-width: 1.2;
+      }
+
+      .spider-eye {
+        fill: #e3262e;
+      }
+    </style>
+  </defs>
+
+  <!-- Main horizontal strand -->
+  <path class="web" d="M0 76 C145 32 265 118 405 72 S690 30 835 76 S1060 120 1200 64">
+    <animate attributeName="d"
+      dur="5s"
+      repeatCount="indefinite"
+      values="
+      M0 76 C145 32 265 118 405 72 S690 30 835 76 S1060 120 1200 64;
+      M0 76 C145 45 265 103 405 76 S690 18 835 68 S1060 132 1200 64;
+      M0 76 C145 32 265 118 405 72 S690 30 835 76 S1060 120 1200 64"/>
+  </path>
+
+  <!-- Diagonal strands crossing the README -->
+  <path class="web-thin" d="M115 0 C205 72 270 132 350 260"/>
+  <path class="web-thin" d="M310 0 C365 78 430 150 500 260"/>
+  <path class="web-thin" d="M520 0 C545 86 585 166 610 260"/>
+  <path class="web-thin" d="M725 0 C710 96 700 170 690 260"/>
+  <path class="web-thin" d="M925 0 C875 94 845 172 805 260"/>
+  <path class="web-thin" d="M1110 0 C1035 75 980 144 915 260"/>
+
+  <!-- Curved web rings -->
+  <path class="web-thin" d="M70 58 C220 24 320 106 465 68 S760 28 900 77 S1085 106 1150 71"/>
+  <path class="web-thin" d="M105 42 C230 30 330 92 465 57 S755 42 890 86 S1060 100 1130 78"/>
+  <path class="web-thin" d="M160 34 C260 38 345 76 470 49 S740 57 870 92 S1030 94 1090 80"/>
+
+  <!-- Spider -->
+  <g transform="translate(595 0)">
+    <!-- descending silk thread -->
+    <path class="spider-line" d="M0 0 L0 112">
+      <animate attributeName="d"
+        dur="4.2s"
+        repeatCount="indefinite"
+        values="M0 0 L0 112; M0 0 L0 138; M0 0 L0 112"/>
+    </path>
+
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0,112; 0,138; 0,112; 0,126; 0,112"
+        dur="4.2s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+
+      <!-- legs -->
+      <g fill="none" stroke="#111111" stroke-width="2.1" stroke-linecap="round">
+        <path d="M-6 -2 L-27 -12 L-39 -28"/>
+        <path d="M-7 2 L-30 2 L-43 -9"/>
+        <path d="M-6 7 L-27 16 L-39 28"/>
+        <path d="M6 -2 L27 -12 L39 -28"/>
+        <path d="M7 2 L30 2 L43 -9"/>
+        <path d="M6 7 L27 16 L39 28"/>
+      </g>
+
+      <!-- body -->
+      <ellipse class="spider-body" cx="0" cy="3" rx="11" ry="16"/>
+      <circle class="spider-body" cx="0" cy="-13" r="8"/>
+
+      <!-- tiny red eyes -->
+      <circle class="spider-eye" cx="-3.2" cy="-15" r="1.45"/>
+      <circle class="spider-eye" cx="3.2" cy="-15" r="1.45"/>
+    </g>
+  </g>
+
+  <!-- Small sparkle particles -->
+  <g fill="#ffffff">
+    <circle cx="180" cy="45" r="1.4">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1035" cy="82" r="1.4">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="52" r="1.1">
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

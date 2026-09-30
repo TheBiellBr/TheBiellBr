@@ -1,131 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Teia de aranha animada com uma pequena aranha descendo">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 1100"
+     role="img"
+     aria-label="Uma única aranha descendo por uma teia do topo até o final">
+
   <defs>
-    <linearGradient id="webFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.08"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.75"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.08"/>
+    <linearGradient id="webGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
     </linearGradient>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
+    <path id="dropPath"
+          d="M600 70
+             C575 180 625 280 600 380
+             C570 500 630 590 600 700
+             C570 810 625 905 600 1015"/>
+
     <style>
       .web {
         fill: none;
-        stroke: url(#webFade);
-        stroke-width: 1.6;
+        stroke: url(#webGlow);
+        stroke-width: 1.5;
         stroke-linecap: round;
-        filter: url(#glow);
       }
 
-      .web-thin {
+      .web2 {
         fill: none;
         stroke: #ffffff;
-        stroke-opacity: 0.34;
-        stroke-width: 1.1;
+        stroke-opacity: 0.16;
+        stroke-width: 1;
         stroke-linecap: round;
       }
 
-      .spider-line {
+      .silk {
         stroke: #ffffff;
-        stroke-opacity: 0.65;
-        stroke-width: 1.4;
+        stroke-opacity: 0.62;
+        stroke-width: 1.5;
         stroke-linecap: round;
       }
 
-      .spider-body {
-        fill: #111111;
+      .body {
+        fill: #101010;
         stroke: #ffffff;
-        stroke-opacity: 0.8;
+        stroke-opacity: 0.75;
         stroke-width: 1.2;
       }
 
-      .spider-eye {
+      .leg {
+        fill: none;
+        stroke: #101010;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .eye {
         fill: #e3262e;
       }
     </style>
   </defs>
 
-  <!-- Main horizontal strand -->
-  <path class="web" d="M0 76 C145 32 265 118 405 72 S690 30 835 76 S1060 120 1200 64">
-    <animate attributeName="d"
-      dur="5s"
-      repeatCount="indefinite"
-      values="
-      M0 76 C145 32 265 118 405 72 S690 30 835 76 S1060 120 1200 64;
-      M0 76 C145 45 265 103 405 76 S690 18 835 68 S1060 132 1200 64;
-      M0 76 C145 32 265 118 405 72 S690 30 835 76 S1060 120 1200 64"/>
+  <!-- Large single web spanning the whole animation -->
+  <g opacity="0.95" filter="url(#softGlow)">
+    <path class="web" d="M80 105 Q600 22 1120 105"/>
+    <path class="web2" d="M60 210 Q600 110 1140 210"/>
+    <path class="web2" d="M45 330 Q600 205 1155 330"/>
+    <path class="web2" d="M35 465 Q600 325 1165 465"/>
+    <path class="web2" d="M30 610 Q600 450 1170 610"/>
+    <path class="web2" d="M38 760 Q600 570 1162 760"/>
+    <path class="web2" d="M55 915 Q600 690 1145 915"/>
+    <path class="web" d="M90 1020 Q600 820 1110 1020"/>
+
+    <path class="web2" d="M600 35 Q430 180 300 1020"/>
+    <path class="web2" d="M600 35 Q500 220 455 1050"/>
+    <path class="web2" d="M600 35 Q560 250 545 1070"/>
+    <path class="web2" d="M600 35 Q640 250 655 1070"/>
+    <path class="web2" d="M600 35 Q700 220 745 1050"/>
+    <path class="web2" d="M600 35 Q770 180 900 1020"/>
+    <path class="web2" d="M600 35 Q850 150 1040 900"/>
+  </g>
+
+  <!-- One continuous silk thread -->
+  <path class="silk" d="M600 0 L600 1018">
+    <animate attributeName="opacity"
+             values="0.3;0.8;0.3"
+             dur="2.6s"
+             repeatCount="indefinite"/>
   </path>
 
-  <!-- Diagonal strands crossing the README -->
-  <path class="web-thin" d="M115 0 C205 72 270 132 350 260"/>
-  <path class="web-thin" d="M310 0 C365 78 430 150 500 260"/>
-  <path class="web-thin" d="M520 0 C545 86 585 166 610 260"/>
-  <path class="web-thin" d="M725 0 C710 96 700 170 690 260"/>
-  <path class="web-thin" d="M925 0 C875 94 845 172 805 260"/>
-  <path class="web-thin" d="M1110 0 C1035 75 980 144 915 260"/>
+  <!-- ONE spider: top -> bottom -->
+  <g>
+    <animateMotion
+      dur="12s"
+      repeatCount="indefinite"
+      rotate="0"
+      keyTimes="0;0.5;1"
+      keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
+      calcMode="spline">
+      <mpath href="#dropPath"/>
+    </animateMotion>
 
-  <!-- Curved web rings -->
-  <path class="web-thin" d="M70 58 C220 24 320 106 465 68 S760 28 900 77 S1085 106 1150 71"/>
-  <path class="web-thin" d="M105 42 C230 30 330 92 465 57 S755 42 890 86 S1060 100 1130 78"/>
-  <path class="web-thin" d="M160 34 C260 38 345 76 470 49 S740 57 870 92 S1030 94 1090 80"/>
-
-  <!-- Spider -->
-  <g transform="translate(595 0)">
-    <!-- descending silk thread -->
-    <path class="spider-line" d="M0 0 L0 112">
-      <animate attributeName="d"
-        dur="4.2s"
-        repeatCount="indefinite"
-        values="M0 0 L0 112; M0 0 L0 138; M0 0 L0 112"/>
-    </path>
+    <!-- subtle body swing -->
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="-5 0 0;5 0 0;-5 0 0"
+      dur="2.8s"
+      repeatCount="indefinite"/>
 
     <g>
-      <animateTransform
-        attributeName="transform"
-        type="translate"
-        values="0,112; 0,138; 0,112; 0,126; 0,112"
-        dur="4.2s"
-        repeatCount="indefinite"
-        calcMode="spline"
-        keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-
       <!-- legs -->
-      <g fill="none" stroke="#111111" stroke-width="2.1" stroke-linecap="round">
-        <path d="M-6 -2 L-27 -12 L-39 -28"/>
-        <path d="M-7 2 L-30 2 L-43 -9"/>
-        <path d="M-6 7 L-27 16 L-39 28"/>
-        <path d="M6 -2 L27 -12 L39 -28"/>
-        <path d="M7 2 L30 2 L43 -9"/>
-        <path d="M6 7 L27 16 L39 28"/>
-      </g>
+      <path class="leg" d="M-8 -2 L-34 -17 L-53 -42"/>
+      <path class="leg" d="M-10 5 L-38 4 L-58 -10"/>
+      <path class="leg" d="M-8 11 L-34 25 L-51 48"/>
+      <path class="leg" d="M8 -2 L34 -17 L53 -42"/>
+      <path class="leg" d="M10 5 L38 4 L58 -10"/>
+      <path class="leg" d="M8 11 L34 25 L51 48"/>
 
       <!-- body -->
-      <ellipse class="spider-body" cx="0" cy="3" rx="11" ry="16"/>
-      <circle class="spider-body" cx="0" cy="-13" r="8"/>
+      <ellipse class="body" cx="0" cy="7" rx="14" ry="21"/>
+      <circle class="body" cx="0" cy="-15" r="10"/>
 
-      <!-- tiny red eyes -->
-      <circle class="spider-eye" cx="-3.2" cy="-15" r="1.45"/>
-      <circle class="spider-eye" cx="3.2" cy="-15" r="1.45"/>
+      <!-- red eyes -->
+      <ellipse class="eye" cx="-4" cy="-18" rx="2.2" ry="3.1"/>
+      <ellipse class="eye" cx="4" cy="-18" rx="2.2" ry="3.1"/>
     </g>
   </g>
 
-  <!-- Small sparkle particles -->
-  <g fill="#ffffff">
-    <circle cx="180" cy="45" r="1.4">
-      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1035" cy="82" r="1.4">
-      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="840" cy="52" r="1.1">
-      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.4s" repeatCount="indefinite"/>
+  <!-- bottom accent -->
+  <g opacity="0.8">
+    <circle cx="600" cy="1040" r="3" fill="#ffffff">
+      <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.9;0.25" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
 </svg>

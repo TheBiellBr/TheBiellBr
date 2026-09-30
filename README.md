@@ -19,15 +19,13 @@
 
 ## 🕷️ Sobre mim
 
-Olá! Eu sou **Gabriel Santos Gonçalves**, estudante de **Análise e Desenvolvimento de Sistemas (ADS)** na **FICR**.
+Me chamo **Gabriel Santos**, estudante de **Análise e Desenvolvimento de Sistemas (ADS)** na **FICR**.
 
-Estou construindo minha carreira na área de tecnologia e gosto de aprender colocando a mão no código. Atualmente venho desenvolvendo projetos acadêmicos e pessoais, buscando evoluir principalmente em **programação, lógica, banco de dados e desenvolvimento web**.
-
-> 🕸️ *"Com grandes responsabilidades vêm grandes oportunidades de aprender."*
+Estou construindo minha carreira na área de tecnologia e gosto de aprender treinando códigos, venho desenvolvendo projetos acadêmicos e pessoais, buscando evoluir principalmente em **programação, lógica, banco de dados e desenvolvimento web**.
 
 ### 🎯 Meu objetivo
 
-Me tornar um **programador**, evoluir constantemente e construir uma carreira sólida na área de tecnologia.
+Me tornar um **programador**, evoluir constantemente e construir uma carreira sólida na área de tecnologia e participar de grandes empresas.
 
 ---
 
@@ -59,12 +57,12 @@ Me tornar um **programador**, evoluir constantemente e construir uma carreira s�
 
 ## 🚀 O que venho estudando
 
-- 🧠 Programação e lógica
-- 🏗️ Programação Orientada a Objetos
-- 🗄️ Banco de dados e SQL
-- 🌐 Desenvolvimento web
-- 🔧 Git e GitHub
-- 📚 Estruturas e organização de projetos
+- Lógica de programação
+- Programação Orientada a Objetos
+- Banco de dados e SQL
+- Desenvolvimento web
+- Git e GitHub
+- Estruturas e organização de projetos
 
 ---
 

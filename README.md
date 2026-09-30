@@ -102,7 +102,7 @@ Repositório onde organizo atividades, exercícios e projetos desenvolvidos dura
 
 <div align="center">
   
-##🕷️Contatos
+**🕷️Contatos**
 
 <a href="https://www.linkedin.com/in/gabriel-santos-a22723302">
   <img src="https://img.shields.io/badge/LinkedIn-Gabriel%20Gonçalves-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />

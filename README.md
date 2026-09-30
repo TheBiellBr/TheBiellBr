@@ -1,4 +1,3 @@
-
 <!-- SPIDER-MAN PROFILE README -->
 
 <div align="center">
@@ -15,6 +14,10 @@
 
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheBiellBr/TheBiellBr/main/assets/spider-web.svg" width="100%" alt="Teia de aranha animada"/>
+</p>
+
 ---
 
 ## 🕷️ Sobre mim
@@ -28,6 +31,10 @@ Estou construindo minha carreira na área de tecnologia e gosto de aprender trei
 Me tornar um **programador**, evoluir constantemente e construir uma carreira sólida na área de tecnologia e participar de grandes empresas.
 
 ---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheBiellBr/TheBiellBr/main/assets/spider-web.svg" width="100%" alt="Teia de aranha animada"/>
+</p>
 
 ## 🧰 Tecnologias
 
@@ -65,6 +72,10 @@ Me tornar um **programador**, evoluir constantemente e construir uma carreira s�
 - Estruturas e organização de projetos
 
 ---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheBiellBr/TheBiellBr/main/assets/spider-web.svg" width="100%" alt="Teia de aranha animada"/>
+</p>
 
 ## 📂 Projetos
 
@@ -118,7 +129,8 @@ Repositório onde organizo atividades, exercícios e projetos desenvolvidos dura
 
 <br><br>
 
+<img src="https://raw.githubusercontent.com/TheBiellBr/TheBiellBr/main/assets/spider-web.svg" width="100%" alt="Teia de aranha animada"/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:C1121F,100:8B0000&height=120&section=footer" width="100%"/>
 
 </div>
-```

@@ -9,7 +9,6 @@
   <p>
     <img src="https://img.shields.io/badge/🎓%20ADS-FICR-001F54?style=for-the-badge" />
     <img src="https://img.shields.io/badge/💻%20Developer-in%20training-C1121F?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🕷️%20Spider--Verse-mode-111111?style=for-the-badge" />
   </p>
 
 </div>
